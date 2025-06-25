@@ -4,39 +4,30 @@ import { Github, ArrowRight } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.',
-      image: 'photo-1486312338219-ce68d2c6f44d',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      githubUrl: '#',
-      liveUrl: '#',
+      title: 'Portfolio Website',
+      description: 'A ',
+      image: 'portfolio-screenshot.png',
+      technologies: [],
+      githubUrl: 'https://github.com/JahleelT/luminous-layout-site',
+      liveUrl: '',
       featured: true
     },
     {
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'photo-1581091226825-a6a2a5aee158',
+      image: 'tasking-site.png',
       technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/JahleelT/task-travailing-tasker',
+      liveUrl: 'https://task-travailing-tasker.vercel.app/',
       featured: true
     },
     {
       title: 'Weather Dashboard',
-      description: 'A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
-      image: 'photo-1488590528505-98d2b5aba04b',
+      description: 'This is a placeholder for future use. I have not created a weather dashboard app (at least as of yet)',
+      image: '',
       technologies: ['Vue.js', 'OpenWeather API', 'Chart.js'],
       githubUrl: '#',
       liveUrl: '#',
-      featured: false
-    },
-    {
-      title: 'Portfolio Website',
-      description: 'A ',
-      image: '',
-      technologies: [],
-      githubUrl: 'https://github.com/JahleelT/luminous-layout-site',
-      liveUrl: '',
       featured: false
     },
   ];
@@ -62,7 +53,7 @@ const Projects = () => {
             <div key={project.title} className="neumorphic p-8 group neumorphic-hover">
               <div className="relative overflow-hidden rounded-xl mb-6">
                 <img
-                  src={`https://images.unsplash.com/${project.image}?auto=format&fit=crop&w=600&h=400`}
+                  src={`/thumbnails/${project.image}`}
                   alt={project.title}
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -111,7 +102,7 @@ const Projects = () => {
               <div key={project.title} className="neumorphic p-6 group neumorphic-hover">
                 <div className="relative overflow-hidden rounded-lg mb-4">
                   <img
-                    src={`https://images.unsplash.com/${project.image}?auto=format&fit=crop&w=400&h=200`}
+                    src={`/thumbnails/${project.image}`}
                     alt={project.title}
                     className="w-full h-32 object-cover transition-transform duration-500 group-hover:scale-110"
                   />
