@@ -22,7 +22,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-platinum">
             Hi, I'm{' '}
             <span className="text-transparent bg-gradient-to-r from-silver_lake_blue via-yinmn_blue to-silver_lake_blue bg-clip-text animate-float">
-              John Doe
+              Jahleel Townsend
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-silver_lake_blue-300 max-w-2xl mx-auto">

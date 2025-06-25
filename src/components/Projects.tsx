@@ -32,22 +32,13 @@ const Projects = () => {
     },
     {
       title: 'Portfolio Website',
-      description: 'A modern portfolio website showcasing projects and skills with smooth animations and responsive design.',
-      image: 'photo-1487058792275-0ad4aaf24ca7',
-      technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
-      githubUrl: '#',
-      liveUrl: '#',
+      description: 'A ',
+      image: '',
+      technologies: [],
+      githubUrl: 'https://github.com/JahleelT/luminous-layout-site',
+      liveUrl: '',
       featured: false
     },
-    {
-      title: 'Blog Platform',
-      description: 'A content management system for bloggers with markdown support, SEO optimization, and social sharing.',
-      image: 'photo-1649972904349-6e44c42644a7',
-      technologies: ['Gatsby', 'GraphQL', 'Contentful'],
-      githubUrl: '#',
-      liveUrl: '#',
-      featured: false
-    }
   ];
 
   const featuredProjects = projects.filter(project => project.featured);

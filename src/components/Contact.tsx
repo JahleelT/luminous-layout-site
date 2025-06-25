@@ -7,20 +7,20 @@ const Contact = () => {
     {
       name: 'Email',
       icon: Mail,
-      url: 'mailto:john.doe@example.com',
-      handle: 'john.doe@example.com'
+      url: 'mailto:jtownwar1@gmail.com',
+      handle: 'jtownwar1@gmail.com'
     },
     {
       name: 'GitHub',
       icon: Github,
-      url: 'https://github.com/johndoe',
-      handle: 'github.com/johndoe'
+      url: 'https://github.com/JahleelT',
+      handle: 'github.com/JahleelT'
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://linkedin.com/in/johndoe',
-      handle: 'linkedin.com/in/johndoe'
+      url: 'https://www.linkedin.com/in/jahleel-t-443278215/',
+      handle: 'linkedin.com/in/jahleel-t-443278215/'
     }
   ];
 
@@ -124,7 +124,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-16 pt-8 border-t border-yinmn_blue">
           <p className="text-yinmn_blue-800">
-            © 2024 John Doe. Built with React and Tailwind CSS.
+            © 2025 Jahleel Townsend. Built with React and Tailwind CSS.
           </p>
         </div>
       </div>
