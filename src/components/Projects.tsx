@@ -5,9 +5,9 @@ const Projects = () => {
   const projects = [
     {
       title: 'Portfolio Website',
-      description: 'A ',
+      description: 'Recursive display of my portfolio website (this website). Used to showcase my other projects. This is a simple single-page application used as a landing page.',
       image: 'portfolio-screenshot.png',
-      technologies: [],
+      technologies: ['React', 'TypeScript', 'Tailwind'],
       githubUrl: 'https://github.com/JahleelT/luminous-layout-site',
       liveUrl: '',
       featured: true
@@ -16,13 +16,13 @@ const Projects = () => {
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
       image: 'tasking-site.png',
-      technologies: ['Next.js', 'TypeScript', 'MongoDB', 'Socket.io'],
+      technologies: ['React', 'TypeScript', 'Tailwind'],
       githubUrl: 'https://github.com/JahleelT/task-travailing-tasker',
       liveUrl: 'https://task-travailing-tasker.vercel.app/',
       featured: true
     },
     {
-      title: 'Weather Dashboard',
+      title: 'Fitness Tracking App',
       description: 'This is a placeholder for future use. I have not created a weather dashboard app (at least as of yet)',
       image: '',
       technologies: ['Vue.js', 'OpenWeather API', 'Chart.js'],
@@ -30,6 +30,15 @@ const Projects = () => {
       liveUrl: '#',
       featured: false
     },
+    {
+      title: 'Photographical Display',
+      description: 'This is an application that documents pictures I have taken throughout my life starting in ~2021 from various cities and countries. Inspiration for the project was taken from the "Award Winning Animation With Only 20 Lines Of CSS?" video on YouTube from the channel @Hyperplexed.',
+      image: '',
+      technologies: ['JavaScript', 'HTML', 'CSS'],
+      githubUrl: '',
+      liveUrl: '',
+      featured: false
+    }
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
