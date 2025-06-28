@@ -34,7 +34,7 @@ const Projects = () => {
       title: 'Photographical Display',
       description: 'This is an application that documents pictures I have taken throughout my life starting in ~2021 from various cities and countries. Inspiration for the project was taken from the "Award Winning Animation With Only 20 Lines Of CSS?" video on YouTube from the channel @Hyperplexed.',
       image: 'display-site.png',
-      technologies: ['JavaScript', 'HTML', 'CSS'],
+      technologies: ['JavaScript', 'HTML', 'CSS', 'Vercel'],
       githubUrl: 'https://github.com/JahleelT/photographical-display',
       liveUrl: 'https://photographical-display.vercel.app/',
       featured: true
