@@ -4,8 +4,8 @@ import { Code, User, Book } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    { category: 'Programming Languages', items: ['React', 'TypeScript', 'JavaScript', 'CSS', 'HTML', 'Python', 'Java', 'C', 'Golang'] },
-    { category: 'Tools & Technologies', items: ['Node.js', 'Flask', 'PostgreSQL', 'MongoDB', 'Git', 'Docker', 'Figma', 'Vue.js', 'Next.js', 'React', 'Axios', 'Mocha', 'Axios', 'p5', 'JSON Web Token', 'Handlebars.js', 'Socket.io', 'Agile Methodologies', 'Scrum', 'DevOps Fundamentals', 'NPM', 'GitHub', 'Pandas', 'NumPy'] },
+    { category: 'Languages & Scripting', items: ['React', 'TypeScript', 'JavaScript', 'CSS', 'HTML', 'Python', 'Java', 'C', 'Golang'] },
+    { category: 'Tools & Technologies', items: ['Node.js', 'Flask', 'PostgreSQL', 'MongoDB', 'Git', 'Docker', 'Figma', 'Vue.js', 'Next.js', 'React', 'Mocha', 'Axios', 'p5', 'JSON Web Token', 'Handlebars.js', 'Socket.io', 'Agile Methodologies', 'DevOps Fundamentals', 'NPM', 'Pandas', 'NumPy'] },
     { category: 'Databases', items: ['PostgreSQL', 'SQLite', 'MongoDB']},
     { category: 'AI/ML Technologies', items: ['OpenAI API', 'Playwright', 'Beautiful Soup', 'PyMuPDF', 'Web Scraping', 'PDF Parsing', 'Natural Language Processing', 'Prompt Engineering', 'AI Integration']}
   ];

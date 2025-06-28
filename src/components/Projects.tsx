@@ -10,7 +10,7 @@ const Projects = () => {
       technologies: ['React', 'TypeScript', 'Tailwind'],
       githubUrl: 'https://github.com/JahleelT/luminous-layout-site',
       liveUrl: '',
-      featured: true
+      featured: false
     },
     {
       title: 'Task Management App',
@@ -19,16 +19,16 @@ const Projects = () => {
       technologies: ['React', 'TypeScript', 'Tailwind'],
       githubUrl: 'https://github.com/JahleelT/task-travailing-tasker',
       liveUrl: 'https://task-travailing-tasker.vercel.app/',
-      featured: true
+      featured: false
     },
     {
-      title: 'Fitness Tracking App',
-      description: 'This is a placeholder for future use. I have not created a weather dashboard app (at least as of yet)',
-      image: '',
-      technologies: ['Vue.js', 'OpenWeather API', 'Chart.js'],
-      githubUrl: '#',
-      liveUrl: '#',
-      featured: false
+      title: 'Resume Screener',
+      description: 'This is a Flask app that helps users better cater their resumes to an individual job posting by submitting a URL of the job posting along with the PDF of their resume.',
+      image: 'screener.png',
+      technologies: ['Flask', 'HTML/CSS/JS', 'BeautifulSoup', 'PyMuPDF', 'OpenAI API', "Playwright", 'MongoDB', 'Docker', 'Render'],
+      githubUrl: 'https://github.com/JahleelT/jahleelt-resume-screener',
+      liveUrl: 'https://jahleelt-resume-screener.onrender.com/',
+      featured: true
     },
     {
       title: 'Photographical Display',
