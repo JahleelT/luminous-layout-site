@@ -38,7 +38,26 @@ const Projects = () => {
       githubUrl: 'https://github.com/JahleelT/photographical-display',
       liveUrl: 'https://photographical-display.vercel.app/',
       featured: true
-    }
+    },
+    {
+      title: 'TrackAJob',
+      description: 'This is a Java based CLI application for tracking job applications, serving the purpose of practice OOP concets, logging, file IO, etc.',
+      image: 'tracking-site.png',
+      technologies: ['Java'],
+      githubUrl: 'https://github.com/JahleelT/TrackAJob/tree/main',
+      liveUrl: '',
+      featured: true
+    },
+    {
+      title: 'CommuteSmartAI',
+      description: 'This will be a React Frontend/Fiber Backend/FastAPI ML client public transportation application. The OpenAI API will be utilized in the backend for a chatting feature. The devleoper-oriented goal of the application is to become familiar with both full stack AND AI/ML development, as well as API implementation. The functional goal of the project is to provide a new and streamlined public transortation navigation experience that is more intuitive and helpful at delivering information than Google or Apple Maps; It will also offer a new format of asking for directions from Point A to Point B.',
+      image: 'work-in-progress.png',
+      technologies: ['TypeScript React', 'Go (Fiber)', 'Python', 'OpenAI API', 'NYC 511 API', 'NYC Open Data', 'Redux', 'etc.'],
+      githubUrl: 'https://github.com/JahleelT/CommuteSmartAI',
+      liveUrl: '',
+      featured: false
+    },
+  
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
