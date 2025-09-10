@@ -49,13 +49,22 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'CommuteSmartAI',
+      title: 'CommuteSmartAI (WIP)',
       description: 'This will be a React Frontend/Fiber Backend/FastAPI ML client public transportation application. The OpenAI API will be utilized in the backend for a chatting feature. The devleoper-oriented goal of the application is to become familiar with both full stack AND AI/ML development, as well as API implementation. The functional goal of the project is to provide a new and streamlined public transortation navigation experience that is more intuitive and helpful at delivering information than Google or Apple Maps; It will also offer a new format of asking for directions from Point A to Point B.',
       image: 'work-in-progress.png',
       technologies: ['TypeScript React', 'Go (Fiber)', 'Python', 'OpenAI API', 'NYC 511 API', 'NYC Open Data', 'Redux', 'etc.'],
       githubUrl: 'https://github.com/JahleelT/CommuteSmartAI',
       liveUrl: '',
       featured: false
+    },
+    {
+      title: 'ButtonPress',
+      description: 'ButtonPress is a lightweight cloud-hosted web app that showcases end-to-end development and deployment on Google Cloud. Built with React (TypeScript) on the frontend and a minimal Express.js backend, the app allows users to create an account with Firebase Authentication, log in, and track how many times they press a button. Each user’s count is stored securely in Firestore and displayed in real time. The frontend is hosted on Firebase Hosting, while the backend API runs on Google Cloud Run, demonstrating scalable and secure deployment practices. To ensure professional-grade implementation, the project also includes Firestore security rules, authenticated API checks, and clear documentation for setup and deployment.',
+      image: 'button-site.png',
+      technologies: ['TypeScript React', 'Tailwind', 'Express.js', 'Firebase', 'Firestore', 'Google Cloud Run'],
+      githubUrl: 'https://github.com/JahleelT/ButtonPress',
+      liveUrl: 'https://buttonpress-2dc06.web.app/',
+      featured: true
     },
   
   ];
