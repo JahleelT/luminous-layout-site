@@ -13,7 +13,7 @@ const Projects = () => {
       featured: false
     },
     {
-      title: 'Task Management App',
+      title: 'Task Management App (WIP)',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
       image: 'tasking-site.png',
       technologies: ['React', 'TypeScript', 'Tailwind'],
@@ -23,7 +23,7 @@ const Projects = () => {
     },
     {
       title: 'Resume Screener',
-      description: 'This is a Flask app that helps users better cater their resumes to an individual job posting by submitting a URL of the job posting along with the PDF of their resume.',
+      description: 'Resume Screener is a full-stack web application built with Flask that leverages OpenAI’s GPT model to analyze resumes against job descriptions. The app parses uploaded resume text, compares it to role requirements, and generates actionable alignment suggestions based on keywords, skills, and qualifications. Both the frontend and backend are implemented in Flask, with a clean, intuitive interface powered by Flask templates and CSS. This project demonstrates a practical NLP use case, applying AI to improve the accessibility and effectiveness of job applications while highlighting skills in AI integration, full-stack development, and user-centered design.',
       image: 'screener.png',
       technologies: ['Flask', 'HTML/CSS/JS', 'BeautifulSoup', 'PyMuPDF', 'OpenAI API', "Playwright", 'MongoDB', 'Docker', 'Render'],
       githubUrl: 'https://github.com/JahleelT/jahleelt-resume-screener',
@@ -41,7 +41,7 @@ const Projects = () => {
     },
     {
       title: 'TrackAJob',
-      description: 'This is a Java based CLI application for tracking job applications, serving the purpose of practice OOP concets, logging, file IO, etc.',
+      description: 'TrackAJob is a command-line tool designed to help organize and manage job applications. Developed in Java with a modular, object-oriented architecture, the application allows users to create, edit, filter, and delete records directly from the terminal. To ensure durability and portability, it supports persistent data storage with XML export/import using the StAX API. The tool also includes error logging and handling for reliability, and emphasizes maintainability with clear structure, detailed Javadoc documentation, and scalable design principles, making it both a practical utility and a showcase of backend engineering fundamentals.',
       image: 'tracking-site.png',
       technologies: ['Java'],
       githubUrl: 'https://github.com/JahleelT/TrackAJob/tree/main',
