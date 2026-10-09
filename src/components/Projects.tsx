@@ -13,6 +13,15 @@ const Projects = () => {
       featured: false
     },
     {
+      title: "SniffNotes",
+      description: "Passion project that provides a smoother online fragrance exploration experience. Find and save your favorite scents, read up on the latest fragrance news, and learn about the experience of smelling your favorite perfume!",
+      image: '',
+      technologies: ['NextJS', 'Tailwind', 'Supabase'],
+      githubUrl: 'https://github.com/JahleelT/SniffNotes',
+      liveUrl: 'sniffnotes.vercel.app',
+      featured: true
+    },
+    {
       title: 'Task Management App (WIP)',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
       image: 'tasking-site.png',
@@ -28,7 +37,7 @@ const Projects = () => {
       technologies: ['Flask', 'HTML/CSS/JS', 'BeautifulSoup', 'PyMuPDF', 'OpenAI API', "Playwright", 'MongoDB', 'Docker', 'Render'],
       githubUrl: 'https://github.com/JahleelT/jahleelt-resume-screener',
       liveUrl: 'https://jahleelt-resume-screener.onrender.com/',
-      featured: true
+      featured: false
     },
     {
       title: 'Photographical Display',
